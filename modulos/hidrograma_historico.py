@@ -6,7 +6,7 @@ Created on Wed Jul 25 13:01:41 2018
 """
 import numpy as np
 
-def hidrograma_ref(T,prec,etp,sm_max=40, ratio_evap=0.5, ratio_inf=0.75, t_sup=2, t_sub=8): # valores iniciales de los parametros
+def hidrograma_historico(T,prec,etp,sm_max=40, ratio_evap=0.5, ratio_inf=0.75, t_sup=2, t_sub=8): # valores iniciales de los parametros
     """
     Este modelo hidrologico es una adaptacion del modelo HyMOD. Tiene 5 parametros:
 
